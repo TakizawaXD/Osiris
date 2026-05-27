@@ -198,7 +198,12 @@ def main():
     """
     
     print(f"\n{GREEN}Osiris Online.{RESET} Directorio activo: {CYAN}{target_dir}{RESET}")
-    print(f"Escribe {CYAN}/help{RESET} para ver los comandos.")
+    print(f"\n{BOLD}Capacidades de Osiris:{RESET}")
+    print(f"  • {CYAN}/create <nombre>{RESET} - Orquesta 6 agentes en equipo para autogenerar tu app completa.")
+    print(f"  • {CYAN}/chat <pregunta>{RESET}  - Analiza tu código, depura errores y genera creativos visuales con IA.")
+    print(f"  • {CYAN}/match <solicitud>{RESET} - Mapea y selecciona habilidades óptimas de tu catálogo para cualquier tarea.")
+    print(f"  • {CYAN}/optimize <prompt>{RESET}- Reescribe prompts para evitar autocompletados del IDE y estructurar código.")
+    print(f"\nEscribe {CYAN}/help{RESET} para ver la lista completa de comandos.")
     
     while True:
         try:
